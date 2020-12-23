@@ -1,1 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root{
+    --brand-1: #4a4a4a;
+    --brand-2: #3CDBC0;
+    --brand-3: #FFFFFF;
+    --font-main: "Rubik", sans-serif;
+}
+
+.header{
+    width: 100%;
+    /*position: fixed;*/
+    background-color: var(--brand-3);
+    font-family: var(--font-main);
+    display: flex;
+}
+
+.main{
+    background-color: var(--brand-2);
+    height: 100vh;
+    color: var(--brand-3);
+    font-family: var(--font-main);
+    font-weight: bold;
+}
