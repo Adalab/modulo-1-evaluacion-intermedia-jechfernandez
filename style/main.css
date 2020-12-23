@@ -60,3 +60,25 @@
 .title-item{
     display: block;
 }
+
+@media all and (min-width:768px){
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .header a{
+        margin: 20px 0;
+    }
+
+    .list-items{
+        padding-right: 0;
+        padding-left: 20px;
+
+    }
+
+    .title{
+        font-size: 40px;
+    }
+}
